@@ -1,6 +1,6 @@
-create database rajarshi;
+create database dharmik;
 
-use rajarshi;
+use dharmik;
 
 create table Doctors(
 		Name varchar(20),
@@ -26,7 +26,7 @@ insert into Doctors values('Dr. jignesh Jain', 12352, 'M','cardiologist',9099123
 
 select * from Doctors;
 
-use rajarshi;
+use dharmik;
 select * from Doctors;
 
 insert into Doctors(Password) values('abcd');
@@ -89,7 +89,7 @@ select * from Patients;
 alter table Patients add Password varchar(8);
 select * from Patients;
 
-use rajarshi;
+use dharmik;
 select * from Doctors where Name like 'Dr. Shudhanshu%';
 select * from Doctors;
 select * from Doctors where Name like 'Dr. Shudh%';
